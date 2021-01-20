@@ -1,4 +1,4 @@
-.row {
+/* .row {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -8,6 +8,7 @@
   margin-bottom: 16px;
 }
 
+
 .value {
   font-size: 78px;
   padding-left: 16px;
@@ -15,6 +16,7 @@
   margin-top: 2px;
   font-family: 'Courier New', Courier, monospace;
 }
+
 
 .button {
   appearance: none;
@@ -32,6 +34,7 @@
   transition: all 0.15s;
 }
 
+
 .textbox {
   font-size: 32px;
   padding: 2px;
@@ -40,19 +43,23 @@
   margin-right: 8px;
 }
 
+
 .button:hover, .button:focus {
   border: 2px solid rgba(112, 76, 182, 0.4);
 }
 
+
 .button:active {
   background-color: rgba(112, 76, 182, 0.2);
 }
+
 
 .asyncButton {
   composes: button;
   position: relative;
   margin-left: 8px;
 }
+
 
 .asyncButton:after {
   content: "";
@@ -67,8 +74,9 @@
   transition: width 1s linear, opacity 0.5s ease 1s;
 }
 
+
 .asyncButton:active:after {
   width: 0%;
   opacity: 1;
   transition: 0s
-}
+} */
